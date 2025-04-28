@@ -7,11 +7,7 @@ Preprint on : __TODO__.
 Code and data
 -------------
 
-- Jupyter notebook with Supporting Information.
-- Data loaded in the notebook are saved in .csv format.
-- Training/Test sets and models are saved on FigShare: __TODO__
-
-Tutorials
----------
-
-__TODO__
+- This repository contains a Jupyter notebook with Supporting Information.
+- The data loaded in the notebook are saved in .csv format.
+- Training and test sets, as well as models, are saved on FigShare: https://doi.org/10.6084/m9.figshare.28877672
+- Trajectories in H5MD format (exceeding 10 GB) can be provided upon request due to their size.
