@@ -2,7 +2,7 @@
 
 Preprint:
 - Jakub Martinka, Lina Zhang, Yi-Fan Hou, Mikołaj Martyka, Jiří Pittner*, Mario Barbatti*, Pavlo O. Dral*. A Descriptor Is All You Need: Accurate Machine Learning of Nonadiabatic Coupling Vectors. 2025.
-Preprint on : __TODO__.
+Preprint on : https://doi.org/10.26434/chemrxiv-2025-wzkst.
 
 Code and data
 -------------
