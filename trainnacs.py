@@ -278,7 +278,6 @@ def correct_phase(train_params):
         validation_ml_database=val,
         optimization_algorithm='grid',
         hyperparameters=['lambda','sigma'],
-        training_kwargs={'xyz_derivative_property_to_learn': 'nacs'},
         debug=False
         )
     model.train(ml_database=mlDB)
@@ -328,9 +327,6 @@ def opt_hyperparams(nacs_abs, X):
         validation_ml_database=val,
         optimization_algorithm='grid',
         hyperparameters=['lambda','sigma'],
-        # This has to be set, to overcome problem in models.py!
-        # 'xyz_derivative_property_to_learn': 'nacs'
-        training_kwargs={'xyz_derivative_property_to_learn': 'nacs'},
         debug=False
         )
     return model.hyperparameters['lambda'].value, model.hyperparameters['sigma'].value
@@ -358,9 +354,6 @@ def create_model(train_params, model_name="nacs.npz"):
         validation_ml_database=val,
         optimization_algorithm='grid',
         hyperparameters=['lambda','sigma'],
-        # This has to be set, to overcome problem in models.py!
-        # 'xyz_derivative_property_to_learn': 'nacs'
-        training_kwargs={'xyz_derivative_property_to_learn': 'nacs'},
         debug=False
         )
     model.train(ml_database=mlDB)
