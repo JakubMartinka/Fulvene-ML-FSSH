@@ -1,6 +1,6 @@
 # Fulvene-ML-FSSH
 
-Preprint:
+Paper:
 - Jakub Martinka, Lina Zhang, Yi-Fan Hou, Mikołaj Martyka, Jiří Pittner*, Mario Barbatti*, and Pavlo O. Dral*. A Descriptor Is All You Need: Accurate Machine Learning of Nonadiabatic Coupling Vectors. The Journal of Physical Chemistry Letters 2025 16 (45), 11732-11744, DOI: [10.1021/acs.jpclett.5c02810](https://doi.org/10.1021/acs.jpclett.5c02810).
 
 Preprint on: https://doi.org/10.26434/chemrxiv-2025-wzkst.
